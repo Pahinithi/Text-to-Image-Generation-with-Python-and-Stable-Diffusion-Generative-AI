@@ -17,7 +17,7 @@ This project is perfect for exploring AI art generation and image synthesis, lev
 
 ## Demo
 
-You can try a live demo here: [Live Demo Link](#)  
+You can try a live demo here: [Live Demo Link](https://drive.google.com/file/d/1J9ii61RDtmDEg7qt-e4YrV17q-oKq8EW/view?usp=sharing)  
 
 
 ### Screenshots
