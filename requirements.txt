@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+diffusers
+transformers
+accelerate
+safetensors
+torch
+invisible-watermark
+pillow
+jinja2
+matplotlib

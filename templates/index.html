@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-to-Image Generator</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Text-to-Image Generator</h1>
+            <p>Generate stunning images from text prompts using the power of AI!</p>
+        </header>
+        
+        <section class="form-section">
+            <form action="/generate" method="post" class="form">
+                <div class="input-group">
+                    <label for="prompt">Enter your prompt:</label>
+                    <input type="text" id="prompt" name="prompt" placeholder="A vibrant sunset over the city skyline" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="negative_prompt">Negative prompt (optional):</label>
+                    <input type="text" id="negative_prompt" name="negative_prompt" placeholder="Avoid elements like water, cars, etc.">
+                </div>
+
+                <button type="submit">Generate Image</button>
+            </form>
+        </section>
+
+        <!-- Display generated image if available -->
+        {% if image_path %}
+        <section class="result">
+            <h2>Generated Image:</h2>
+            <img src="{{ image_path }}" alt="Generated Image">
+        </section>
+        {% endif %}
+    </div>
+
+    <footer>
+        <p>Developed by Nithilan</p>
+    </footer>
+</body>
+</html>
