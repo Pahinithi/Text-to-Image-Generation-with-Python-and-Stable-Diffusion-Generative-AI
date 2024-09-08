@@ -171,3 +171,12 @@ This project is licensed under the MIT License.
 - **Hugging Face Diffusers**: For the Stable Diffusion model and pipeline.
 - **FastAPI**: For the simple and powerful web framework.
 - **Bootstrap**: For easy and responsive frontend design.
+
+
+## Contact
+
+For any questions or support, please contact:
+
+- **Name**: Pahirathan Nithilan
+- **Email**: [nithilan32@gmail.com](mailto:nithilan32@gmail.com)
+- **GitHub**: [Pahinithi](https://github.com/Pahinithi)
