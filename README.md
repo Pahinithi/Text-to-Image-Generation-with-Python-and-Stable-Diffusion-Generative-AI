@@ -1,6 +1,5 @@
 # Text-to-Image Generator
 
-
 ## Overview
 
 The **Text-to-Image Generator** application allows users to generate AI-driven images based on text prompts. Utilizing FastAPI for the backend and the Stable Diffusion model for image generation, this project provides a user-friendly web interface for creating custom images. It also supports **negative prompts**, which allow users to specify elements they want to exclude from the generated image.
